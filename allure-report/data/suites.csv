@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3217","authenticate UI","setup-ui","2026-09-19","passed","2026-09-19","","setup\auth.ui.setup.ts","",""
+"","7496","TC02 invlaid Login Test","chromium","2026-09-19","passed","2026-09-19","Login Test Both Valid and Invalid","tests\ui\logintest.spec.ts","",""
+"","6863","TC01 Dashboard Page Open","chromium","2026-09-19","passed","2026-09-19","Dashboard Open Test","tests\ui\dashboardtest.spec.ts","",""
+"","996","authenticate API","setup-api","2026-09-19","passed","2026-09-19","","setup\auth.api.setup.ts","",""
+"","1728","Login Api Testing","api-tests","2026-09-19","passed","2026-09-19","Login Api Test","tests\api\loginapitest.spec.ts","",""
+"","7441","TC01 Valid Login Test","chromium","2026-09-19","passed","2026-09-19","Login Test Both Valid and Invalid","tests\ui\logintest.spec.ts","",""
