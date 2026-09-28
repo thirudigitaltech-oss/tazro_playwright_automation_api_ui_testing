@@ -4,7 +4,7 @@ export default defineConfig({
   fullyParallel: true,
   workers: 8,
   timeout: 30000,
-  headed: true,
+
 
    reporter: [
   ['list'],
@@ -15,7 +15,7 @@ export default defineConfig({
   // global Base Url (UI tests)
   use: {
     baseURL: 'https://tarzo-admin.vercel.app',
-    headless: false,
+   headless: !!process.env.CI,
     screenshot: 'only-on-failure',
     trace: 'retain-on-failure',
     video: 'retain-on-failure',
