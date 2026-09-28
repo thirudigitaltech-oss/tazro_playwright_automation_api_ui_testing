@@ -4,6 +4,7 @@ export default defineConfig({
   fullyParallel: true,
   workers: 8,
   timeout: 30000,
+  headed: true,
 
    reporter: [
   ['list'],
