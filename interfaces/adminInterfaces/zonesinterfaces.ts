@@ -1,12 +1,28 @@
+// Zones List Interfaces 
+
+export interface ZonesListResponseInterface {
+    length(length: any): unknown
+    id: number,
+    name: string,
+    center_lat: number,
+    center_lon: number,
+    radius_meters: number | null,
+    is_active: boolean,
+    created_at: string
+  }
+
+
+
+// Create Zones Request Interface
 export interface CreateZonesRequest{
   name: string,
-  center_lat: 0,
-  center_lon: 0,
-  radius_meters: 5000,
-  is_active: true
+  center_lat: number,
+  center_lon: number,
+  radius_meters: number,
+  is_active: boolean
 }
 
 export interface CreateZoneResponse{
   message: string,
-  id: 0 
+  id: number 
 }

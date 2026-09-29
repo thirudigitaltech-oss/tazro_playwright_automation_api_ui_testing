@@ -1,0 +1,4 @@
+---- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMTQ4OTIxfQ.4bPHCKsTew739LQu8qTQT8AZRHiIBggtYzSckNvioo8
+Product created successfully with ID: 101
+Product with ID: 101 edited successfully!
+Product with ID: 101 deleted successfully!

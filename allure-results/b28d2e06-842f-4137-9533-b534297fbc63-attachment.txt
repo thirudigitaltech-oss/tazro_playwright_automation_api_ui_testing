@@ -1,0 +1,19 @@
+---- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMjAwNjk0fQ.yA1aeNOFHGA10t75C02qFopwaAdgY-oilfOSnX88xfE
+[
+  {
+    id: 94,
+    name: 'Laxmi Kodaganti',
+    phone: '9949195184',
+    is_active: false,
+    is_busy: false,
+    zone_id: null
+  },
+  {
+    id: 1,
+    name: 'Thirupathi Kodaganti ',
+    phone: '9704678952',
+    is_active: false,
+    is_busy: false,
+    zone_id: 5
+  }
+]

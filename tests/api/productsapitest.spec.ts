@@ -97,7 +97,7 @@ test.describe("Products api", async () => {
 
 
         /*=======================================================
-           Delte Product using server Product Generated Id 
+           Edit Product using server Product Generated Id 
           ==========================================================*/
 
         const editproducts = {
@@ -148,6 +148,35 @@ test.describe("Products api", async () => {
     });
 
 
+    /* ==============================================================
+       Nagetive Test Senarios  add product using nagative test
+      ========================================================= */
+
+test("TC03 Negative Test - Add Product with Missing Required Fields", async ({ apiObjects }) => {
+        const nagativeproductApi = apiObjects.getProductsApi();
+
+        // Missing mandatory 'name' and 'price'
+        const invalidPayload = {
+            name: "thi", // empty name
+            price: -10, // invalid negative price
+            original_price: 120,
+            cost_price: 90,
+            unit: "1kg",
+            description: "Invalid product test",
+            image: "https",
+            stock: -5, // invalid negative stock
+            category: "fruits",
+            is_active: true
+        };
+
+        const response = await nagativeproductApi.addProductsApiRequest(invalidPayload);
+        
+        // Server 400 (Bad Request) or 422 (Unprocessable Entity) ivvali
+        expect([400, 422].includes(response.status())).toBeTruthy();
+        console.log(response) ;
+
+     
+    });
 
 
 

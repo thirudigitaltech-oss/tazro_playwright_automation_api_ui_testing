@@ -3,6 +3,9 @@ import { LoginApi } from "../pages-apis/api/adminapis/lognapi";
 import { DashbordAPI } from "../pages-apis/api/adminapis/dashboardapi";
 import { ProductsApi} from "../pages-apis/api/adminapis/productapi";
 import {WorkersApi} from "../pages-apis/api/adminapis/workersapis";
+import {ZonesApi} from "../pages-apis/api/adminapis/zonesapis";
+
+
 
 
 export class APIObjectManagers {
@@ -12,6 +15,7 @@ export class APIObjectManagers {
      private  dashboardapi ? : DashbordAPI ;
      private productsapi ? : ProductsApi ;
      private workersapi? : WorkersApi ;
+     private zonesapis ? : ZonesApi;
 
     constructor(request: APIRequestContext) {
         this.request = request
@@ -44,6 +48,13 @@ export class APIObjectManagers {
         if(!this.workersapi){
             this.workersapi = new WorkersApi(this.request);
         } return this.workersapi;
+    }
+
+    getZonesApi(): ZonesApi{
+        if(!this.zonesapis){
+            this.zonesapis = new ZonesApi(this.request);
+
+        } return this.zonesapis ;
     }
 
 
