@@ -58,11 +58,7 @@ test.describe("Workers Api testing ", async () => {
         const AddData = {
             "name": "Laxmi Kodaganti",
             "phone": "9949195184",
-<<<<<<< Updated upstream
             "password": "venky123123"
-=======
-            "password": "venky1234"
->>>>>>> Stashed changes
         }
 
         const payloads = getaddWorkerpayoads(AddData.name, AddData.phone, AddData.password);
