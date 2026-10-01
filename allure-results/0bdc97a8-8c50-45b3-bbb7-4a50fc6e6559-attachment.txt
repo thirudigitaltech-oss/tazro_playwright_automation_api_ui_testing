@@ -1,0 +1,4 @@
+---- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMjA4OTc3fQ.6RgNRq9nsRZMuvpZM-SHgjmEskX09ShEtK96hCgrB_o
+FASTAPI 422 ERROR DETAILS: {
+  "detail": "Not Found"
+}

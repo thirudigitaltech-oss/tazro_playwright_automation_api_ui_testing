@@ -1,0 +1,17 @@
+---- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMzg0NjgwfQ.zaB3HdFzZSXt5ci_X4OqF41ERCJJ-eo8U844f4-HJKM
+APIResponse: 422 Unprocessable Entity
+  Date: Thu, 01 Oct 2026 09:58:16 GMT
+  Content-Type: application/json
+  Transfer-Encoding: chunked
+  Connection: keep-alive
+  Server: cloudflare
+  x-railway-request-id: 4NRjjhcHQpSovWvL0ubPiw
+  Content-Encoding: gzip
+  x-hikari-trace: sin1.hs0s
+  x-railway-edge: sin1
+  vary: accept-encoding
+  cf-cache-status: DYNAMIC
+  Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+  Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=TNnCfIGvqOcHjfciBsVERef3gbE77V1CV392zZbR5K9ZUvzOR%2BLB26HQKbQf4VP2cL%2Fvv8FOms4EX7O6AAGaTJrVESu8sBh1ZMPXsoUAuopYWXGQCf1rj2A%2B1xgz3dFRLIGqgw%3D%3D"}]}
+  CF-RAY: a43a9ba36aaa2e8d-HYD
+  alt-svc: h3=":443"; ma=86400

@@ -1,0 +1,3 @@
+---- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMzA0NjkwfQ.YGn5WH7YZHrFa_m7luOqZzjfde4eoE6bscwOFgF1MNA
+LoginApi Working Sucessfully With valid Credentils  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMzA0NzAxfQ.XMBNsKXHPywZ7LMrwtsLyVpLvG_ZSQNXSmzzk2Zv4pI
+Validation  4

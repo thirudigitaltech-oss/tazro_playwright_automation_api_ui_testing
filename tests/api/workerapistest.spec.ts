@@ -58,7 +58,11 @@ test.describe("Workers Api testing ", async () => {
         const AddData = {
             "name": "Laxmi Kodaganti",
             "phone": "9949195184",
+<<<<<<< Updated upstream
             "password": "venky123123"
+=======
+            "password": "venky1234"
+>>>>>>> Stashed changes
         }
 
         const payloads = getaddWorkerpayoads(AddData.name, AddData.phone, AddData.password);
@@ -106,22 +110,8 @@ test.describe("Workers Api testing ", async () => {
     });
 
 
-    /*  ==============================================
-        ZoneList APi testing 
-      ===============================================*/
 
-    test("TC03 Zone List Test", async ({ apiObjects }) => {
 
-        const zoneslist = apiObjects.getWorkersApi();
 
-        const response = await zoneslist.workerlistAiRequest();
-        expect(response.status()).toBe(200);
-
-        const body : ZonlistResponseInterfaces = await response.json();
-
-        console.log(body);
-
-       
-    });
 
 })

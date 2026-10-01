@@ -65,6 +65,7 @@ export class BaseAPI {
     }
 
 
+
 // Delete Request method
     async deleteRequest(endpoint: string, id?: number, headers?: Record<string, string>): Promise<APIResponse> {
         const response = await this.request.delete(endpoint, {

@@ -4,6 +4,8 @@ import { DashbordAPI } from "../pages-apis/api/adminapis/dashboardapi";
 import { ProductsApi} from "../pages-apis/api/adminapis/productapi";
 import {WorkersApi} from "../pages-apis/api/adminapis/workersapis";
 import {ZonesApi} from "../pages-apis/api/adminapis/zonesapis";
+import {OrdersApi} from "../pages-apis/api/adminapis/ordersapis";
+import {OffersApis} from "../pages-apis/api/adminapis/offersapis";
 
 
 
@@ -16,6 +18,8 @@ export class APIObjectManagers {
      private productsapi ? : ProductsApi ;
      private workersapi? : WorkersApi ;
      private zonesapis ? : ZonesApi;
+     private ordersapi ? : OrdersApi;
+     private offersapis ? : OffersApis;
 
     constructor(request: APIRequestContext) {
         this.request = request
@@ -55,6 +59,20 @@ export class APIObjectManagers {
             this.zonesapis = new ZonesApi(this.request);
 
         } return this.zonesapis ;
+    }
+
+    
+    getOrdersApi(): OrdersApi{
+        if(!this.ordersapi){
+            this.ordersapi = new OrdersApi(this.request);
+        } return this.ordersapi ;
+    }
+
+
+    getOffersApis(): OffersApis{
+        if(!this.offersapis) {
+            this.offersapis = new OffersApis(this.request);
+        } return this.offersapis ;
     }
 
 

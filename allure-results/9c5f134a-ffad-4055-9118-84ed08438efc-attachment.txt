@@ -1,0 +1,29 @@
+---- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyNDAwMzA3fQ.OIyfxt_IVb1mq51BHBd5X21Gj3ENfDd9IN4wVu0BV5Y
+[
+  {
+    id: 3,
+    title: 'Dussera Offer',
+    description: 'EVERY PRODUCT ON 10% OFF',
+    code: 'DUSSRAOCT',
+    discount_type: 'percent',
+    discount_value: 10,
+    min_order: 1,
+    max_discount: 1,
+    is_active: true,
+    image: '',
+    created_at: '2026-08-06 11:25:00'
+  },
+  {
+    id: 2,
+    title: 'Weekend Offer',
+    description: '10% Discount on every Vegitabale this sunday',
+    code: 'TAZRO546',
+    discount_type: 'percent',
+    discount_value: 10,
+    min_order: 2,
+    max_discount: 100,
+    is_active: true,
+    image: '',
+    created_at: '2026-08-06 11:19:30'
+  }
+]
