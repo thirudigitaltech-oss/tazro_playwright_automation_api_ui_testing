@@ -58,7 +58,7 @@ test.describe("Workers Api testing ", async () => {
         const AddData = {
             "name": "Laxmi Kodaganti",
             "phone": "9949195184",
-            "password": "venky123"
+            "password": "venky123123"
         }
 
         const payloads = getaddWorkerpayoads(AddData.name, AddData.phone, AddData.password);
