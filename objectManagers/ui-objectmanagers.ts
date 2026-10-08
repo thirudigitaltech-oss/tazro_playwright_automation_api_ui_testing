@@ -1,7 +1,7 @@
 
 import {Page} from "@playwright/test";
-import {LoginPage} from "../pages-apis/ui/adminpages/loginpage";
-import {DashboardPage} from "../pages-apis/ui/adminpages/dashboardpage";
+import {LoginPage} from "../pages/ui/adminpages/loginpage";
+import {DashboardPage} from "../pages/ui/adminpages/dashboardpage";
 
 export class PageObjectManagers {
    

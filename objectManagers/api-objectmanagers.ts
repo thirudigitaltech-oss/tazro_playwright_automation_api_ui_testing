@@ -1,14 +1,11 @@
 import { APIRequestContext } from "@playwright/test";
-import { LoginApi } from "../pages-apis/api/adminapis/lognapi";
-import { DashbordAPI } from "../pages-apis/api/adminapis/dashboardapi";
-import { ProductsApi} from "../pages-apis/api/adminapis/productapi";
-import {WorkersApi} from "../pages-apis/api/adminapis/workersapis";
-import {ZonesApi} from "../pages-apis/api/adminapis/zonesapis";
-import {OrdersApi} from "../pages-apis/api/adminapis/ordersapis";
-import {OffersApis} from "../pages-apis/api/adminapis/offersapis";
-
-
-
+import { LoginApi } from "../apis/services/admin/login.service";
+import { DashbordAPI } from "../apis/services/admin/dashboard.service";
+import { ProductsApi} from "../apis/services/admin/products.service";
+import {WorkersApi} from "../apis/services/admin/workers.service";
+import {ZonesApi} from "../apis/services/admin/zones.service";
+import {OrdersApi} from "../apis/services/admin/orders.service";
+import {OffersApis} from "../apis/services/admin/offers.service";
 
 export class APIObjectManagers {
 

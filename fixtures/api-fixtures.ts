@@ -12,8 +12,6 @@ export const test = apitest.extend<ApiFixtures>({
             fs.readFileSync("playwright/.auth/api-token.json", "utf8")
         );
 
-        console.log("---- FIXTURE LOADED TOKEN ----:", auth.token); // Ikkada token print avuthundo ledo chudu
-
         const request = await playwright.request.newContext({
             extraHTTPHeaders: {
                 "Authorization": `Bearer ${auth.token}`,

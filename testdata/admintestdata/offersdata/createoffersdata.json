@@ -1,0 +1,10 @@
+{
+  "title": "Dussera Offer",
+  "description": "Special Dussera discount",
+  "code": "DUSSERA20",
+  "discount_type": "percentage",
+  "discount_value": 20,
+  "min_order": 500,
+  "max_discount": 100,
+  "image": "https://example.com/diwali-offer.jpg"
+}

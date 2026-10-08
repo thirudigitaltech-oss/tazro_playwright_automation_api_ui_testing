@@ -1,2 +1,0 @@
----- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMjk1NjI1fQ.RXFJLFNYtE6ZEX-ehclijGQNcQKqGQvgqntWWkiKdvY
-invalid login test suceesfully get 401 unthrized  Invalid email or password ❌

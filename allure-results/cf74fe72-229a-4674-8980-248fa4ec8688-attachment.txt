@@ -1,4 +1,0 @@
----- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMjAwNjk0fQ.yA1aeNOFHGA10t75C02qFopwaAdgY-oilfOSnX88xfE
-Worker created successfully with ID: 94
-Worker with ID: 94 add zone  successfully!
-Worker with ID: 94 deleted successfully!

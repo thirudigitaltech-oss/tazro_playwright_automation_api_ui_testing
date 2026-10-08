@@ -3,3 +3,6 @@ playwright-report/
 test-results/
 playwright/.auth/
 .env
+allure-results/
+playwright-report/
+test-results/

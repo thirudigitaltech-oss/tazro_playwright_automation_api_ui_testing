@@ -1,9 +1,0 @@
----- FIXTURE LOADED TOKEN ----: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbl9pZCI6NCwiZXhwIjoxODIyMzA0NjkwfQ.YGn5WH7YZHrFa_m7luOqZzjfde4eoE6bscwOFgF1MNA
-{
-  id: 1,
-  name: 'Thirupathi Kodaganti ',
-  phone: '9704678952',
-  is_active: true,
-  is_busy: false,
-  zone_id: 5
-}
